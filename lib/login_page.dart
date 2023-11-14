@@ -32,8 +32,8 @@ class _LoginPageState extends State<LoginPage> {
         child: Form(
           key: _formKey,
           child: Column(children: [
-            Image.network(
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png',
+            Image.asset(
+              'assets/logo.png', // Replace with the path to a local placeholder image
               width: 250,
               height: 250,
             ),
